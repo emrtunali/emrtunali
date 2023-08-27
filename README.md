@@ -1,8 +1,7 @@
 # Hi there, I'm Emir Tunalı! 👋
 
-![Profile Views](https://komarev.com/ghpvc/?username=emrtunali&color=blue)
 
-I'm a passionate individual who loves exploring the world of Software Engineering and its creative aspects. Currently, I'm pursuing a degree in Software Engineering at [Your University Name] in [Your City].
+I'm a passionate individual who loves exploring the world of Computer Programmer and its creative aspects. Currently, I'm pursuing a degree in Software Engineering at [Istanbul Ticaret University] in [Istanbul].
 
 🔭 **What I'm up to**
 
