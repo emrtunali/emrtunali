@@ -6,7 +6,7 @@ I'm a passionate individual who loves exploring the world of Software Engineerin
 
 🔭 **What I'm up to**
 
-- 📚 Studying Software Engineering at [Istanbul Ticaret Univercity].
+- 📚 Studying Computer Programmer at [Istanbul Ticaret Univercity].
 - 💻 Taking various programming courses and working on hands-on projects.
 - 🎓 Exploring the world of software development through internships and personal projects.
 
