@@ -37,6 +37,6 @@ Feel free to connect with me on:
 When I'm not coding, you can often find me:
 
 - Losing track of time while playing video games.
-- Enjoying the latest sci-fi movies and anime series.
+- Enjoying the latest sci-fi movies.
 
 Let's connect, share ideas, and explore potential collaborations!
