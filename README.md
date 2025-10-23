@@ -1,85 +1,109 @@
 <!-- Header Section -->
-<h1 align="center">👋 Hi, I'm Emir Tunalı</h1>
-<h3 align="center">Software Developer | Passionate about Building Clean & Creative Solutions</h3>
+<h1 align="center">✨ Hi, I'm Emir Tunalı</h1>
+<h3 align="center">Software Developer | Clean Code Enthusiast | Lifelong Learner</h3>
 
-<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=1E90FF&center=true&vCenter=true&width=650&lines=💻+Computer+Programming+Graduate;🧠+C%23,+Java,+Python,+and+SQL+Developer;🚀+Lifelong+Learner+in+Software+Architecture;🎯+Building+Innovative+Software+Projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=1E90FF&center=true&vCenter=true&width=650&lines=💻+Software+Developer+from+Istanbul;🚀+Passionate+about+C%23,+Java,+and+Python;🧠+Focused+on+Software+Architecture+and+AI;🌱+Always+Learning+Something+New" alt="Typing SVG" />
 </p>
 
 ---
 
 ### 👨‍💻 About Me
 
-I’m **Emir Tunalı**, a software developer from **Istanbul, Turkey** 🇹🇷  
-🎓 **Graduated** from *Istanbul Ticaret University* — Department of **Computer Programming**  
-🏆 **Ranked 1st in Faculty** with a GPA of **3.54 / 4.00**  
-💡 Passionate about **software design patterns**, **AI**, and **web development**  
-💬 I enjoy turning ideas into clean, efficient, and creative code
+Hey there! I'm **Emir Tunalı**, a **Software Developer** from Istanbul 🇹🇷  
+🎓 Graduated from **Istanbul Ticaret University** — *Ranked 1st in Faculty (GPA: 3.54/4.00)*  
+💼 Skilled in **C#, Java, Python, SQL, HTML, CSS, JavaScript**  
+🧠 Passionate about **software architecture**, **data analysis**, and **AI applications**  
+🌍 I believe in continuous improvement and sharing knowledge through collaboration.
 
 ---
 
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=csharp,java,python,cpp,html,css,js,dotnet,androidstudio,docker,git,github,mysql,vscode,visualstudio&perline=8" />
+  <img src="https://skillicons.dev/icons?i=csharp,java,python,cpp,html,css,js,dotnet,androidstudio,docker,git,github,mysql,postman,vscode,visualstudio&perline=8" />
 </p>
+
+---
+
+### 📊 Languages & Tools Usage
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emrtunali&layout=compact&theme=default&hide_border=true&title_color=1E90FF" height="180em" />
+</p>
+
+💡 **My primary languages:**  
+- 🟦 **C# (40%)** — .NET Framework, Desktop & Server Apps  
+- ☕ **Java (25%)** — Android development, object-oriented design  
+- 🐍 **Python (15%)** — Data mining, analytics, automation  
+- 🧱 **SQL (10%)** — Database design and management  
+- 🧩 **Web (10%)** — HTML, CSS, JS for responsive interfaces  
 
 ---
 
 ### 🚀 Featured Projects
 
-| 💼 Project | 🧩 Description | 🛠 Tech |
-|-------------|----------------|---------|
-| 💬 **Android Chat App** | Real-time messaging app with Firebase authentication and profile upload | Java, Firebase |
-| 🖥️ **Windows Chat App** | Secure server-client communication app with file-based authentication | C#, .NET |
-| 🧠 **Android Quiz App** | Interactive timed quiz app with scoring logic | Java, Android |
-| 🌐 **Logistics Website** | Responsive corporate website with JS animations | HTML, CSS, JavaScript |
+#### 💬 Android Chat App  
+📱 A real-time chat app with Firebase authentication and profile management  
+**Tech:** Java, Firebase, Android Studio  
+**Highlights:** Secure login, real-time updates, scalable database design  
+
+#### 🖥️ Windows Chat App  
+💻 A secure client-server communication tool with logging and file-based authentication  
+**Tech:** C#, .NET  
+**Highlights:** Socket programming, authentication system, message logging  
+
+#### 🧠 Android Quiz App  
+🧩 An interactive quiz app with scoring logic and timer  
+**Tech:** Java, Android SDK  
+**Highlights:** Dynamic question handling, UI/UX with constraint layouts  
+
+#### 🌐 Logistics Company Website  
+🌍 A responsive website with animations  
+**Tech:** HTML, CSS, JavaScript  
+**Highlights:** JS-based animations, mobile-friendly, corporate design  
 
 ---
 
 ### 🧪 Experience
 
 **Software Testing Intern – EGEMSOFT / Türk Telekom**  
-*Jul 2024 – Aug 2024*  
-- Designed testing strategies with Oracle, JMeter, and Netyuz  
-- Discovered and resolved *Critical Five* bug pre-deployment  
-- Delivered a mini-presentation on data mining with Python  
+📅 *Jul 2024 – Aug 2024*  
+- Developed testing strategies using Oracle, JMeter & Netyuz  
+- Identified “Critical Five” bug pre-deployment, improving reliability  
+- Presented a data mining demo using Python  
 
 **Software Intern – Kazancı Holding**  
-*Jul 2023 – Aug 2023*  
-- Built a multi-layered .NET project using **MS SQL Server**  
-- Ran deployments in Docker virtual environments  
-- Strengthened understanding of **multi-tier software architecture**
-
----
-
-### 🎓 Education
-
-**Istanbul Ticaret University – Computer Programming**  
-📅 *2022 – 2024*  
-🏆 *First Place in Faculty* | GPA: 3.54 / 4.00  
-
-**Şehit Salih Alışkan Technical Anatolian High School**  
-📅 *2017 – 2021*  
-🔧 Focus: C#, Java, SQL, and Android Development  
+📅 *Jul 2023 – Aug 2023*  
+- Developed a multi-layered project with **.NET & MS SQL Server**  
+- Deployed apps using **Docker** for portability  
+- Strengthened multi-tier architecture understanding  
 
 ---
 
 ### 🏅 Achievements & Certificates
 
-- 🧾 **Data Analytics Specialist** — İzmir Katip Çelebi University  
-- 🤖 **Artificial Intelligence Applications** — İzmir Katip Çelebi University  
-- 📊 **Basic Statistics & Data Management** — İzmir Katip Çelebi University  
-- 💼 **Basic Micro ERP Training** — Micro Software Inc.
+🎓 **1st in Faculty** — Istanbul Ticaret University  
+📊 **Data Analytics Specialist** — İzmir Katip Çelebi University  
+🤖 **AI Applications Certificate** — İzmir Katip Çelebi University  
+🧾 **Micro ERP Training** — Micro Software Inc.  
+📈 **Statistics & Business Functions** — İzmir Katip Çelebi University  
 
 ---
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emrtunali&show_icons=true&theme=default&hide_border=true&title_color=1E90FF&icon_color=1E90FF" height="180em" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emrtunali&theme=default&hide_border=true&ring=1E90FF&fire=1E90FF" height="180em" />
+  <img src="https://github-readme-stats.vercel.app/api?username=emrtunali&show_icons=true&theme=default&hide_border=true&title_color=1E90FF&icon_color=1E90FF" height="170em" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emrtunali&theme=default&hide_border=true&ring=1E90FF&fire=1E90FF" height="170em" />
+</p>
+
+---
+
+### 🧭 Activity & Contributions
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=emrtunali&bg_color=ffffff&color=1E90FF&line=1E90FF&point=000000&hide_border=true" />
 </p>
 
 ---
@@ -95,4 +119,4 @@ I’m **Emir Tunalı**, a software developer from **Istanbul, Turkey** 🇹🇷
 ---
 
 ### ⚡ Fun Fact
-🎮 When I’m not coding, I enjoy gaming and watching sci-fi movies — they inspire me to think beyond reality.
+🎮 I love exploring sci-fi worlds, playing immersive games, and bringing creative ideas to life through code.
