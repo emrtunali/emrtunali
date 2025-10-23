@@ -1,5 +1,5 @@
 <!-- Header Section -->
-<h1 align="center">✨ Hi, I'm Emir Tunalı</h1>
+<h1 align="center">✨ Hi, I'm Emir TUNALI</h1>
 <h3 align="center">Software Developer | Clean Code Enthusiast | Lifelong Learner</h3>
 
 <p align="center">
