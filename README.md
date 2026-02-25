@@ -53,8 +53,6 @@ scikit-learn • OpenAI API • Gemini • Render
 
 <p align="center">
   <img src="assets/finsight_dashboard.png" width="260"/>
-  <img src="assets/finsight_analysis.png" width="260"/>
-  <img src="assets/finsight_portfolio.png" width="260"/>
 </p>
 
 ---
