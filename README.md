@@ -30,65 +30,25 @@ I'm **Emir Tunalı**, a software developer from Istanbul 🇹🇷
 # 🚀 Featured Project
 
 ## 📊 FinSight Pro Simulation  
-**AI-Powered Market Analysis & Paper Trading Platform**
+**AI-Powered Market Analysis & Paper Trading App**
 
-A cross-platform financial intelligence application built with **Flutter (iOS & Android)** and a **Python FastAPI backend**.
+Cross-platform financial intelligence application built with **Flutter (iOS & Android)** and a **FastAPI (Python)** backend.
 
-🔗 **App Store:**  
+🔗 App Store:  
 https://apps.apple.com/tr/app/finsight-pro-simulation/id6757315007?l=tr  
 
-> ⚠️ Educational simulation platform. No real-money trading involved.
+> Educational simulation platform — no real-money trading involved.
 
----
+### Key Highlights
+- Hybrid AI engine (ML + LLM integrations)
+- Real-time WebSocket market data
+- Portfolio risk & diversification analytics
+- AI-driven market insights & sentiment analysis
+- Automated analytical report generation (PDF)
 
-### 🔥 What Makes It Different
-
-#### 🤖 Hybrid AI Engine
-- Random Forest ML model with RSI, MACD, Bollinger Bands
-- Explainable AI (SHAP) for transparent analysis reasoning
-- Multi-LLM integration (GPT + Gemini)
-- AI Chat & Market Coach
-
-#### 📡 Real-Time Architecture
-- Async WebSocket streaming
-- Low-latency in-memory caching
-- Portfolio risk scoring engine
-- Decimal precision financial calculations
-
-#### 📊 Advanced Market Tools
-- Paper trading with virtual funds
-- Portfolio health & diversification scoring
-- AI sentiment analysis
-- Automated daily / weekly / monthly PDF reports
-- Intelligent notification engine
-
----
-
-### 🛠️ Architecture
-
-**Backend**
-- FastAPI (async)
-- PostgreSQL
-- WebSocket
-- scikit-learn
-- SHAP
-- OpenAI API & Gemini
-- Hosted on Render
-
-**Mobile**
-- Flutter
-- Riverpod state management
-- Dio networking
-- Firebase Auth & Messaging
-- fl_chart for financial visualizations
-
-**Admin Panel**
-- Next.js + TypeScript
-- Tailwind CSS
-- Real-time monitoring dashboard
-
----
-
+### Tech Stack
+Flutter • FastAPI • PostgreSQL • WebSocket • Firebase  
+scikit-learn • OpenAI API • Gemini • Render
 ### 📸 App Preview
 
 <p align="center">
