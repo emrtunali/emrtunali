@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="KAP Analyst: THY 2024 net kâr marjı %15,21, kaynaklı cevap">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060a"/><stop offset="1" stop-color="#101426"/></linearGradient>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5ee7c5"/><stop offset=".5" stop-color="#6aa8ff"/><stop offset="1" stop-color="#b48cff"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+</defs>
+<style>
+  .q { font: 650 36px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f4f5f8; letter-spacing: -.5px; }
+  .tool { font: 500 21px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #a7adbb; }
+  .ans { font: 700 52px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1.5px; }
+  .src { font: 500 19px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b93a5; }
+  .lab { font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b93a5; letter-spacing: 2px; }
+  .cover { transform-box: fill-box; transform-origin: right center; animation: type 1.4s steps(34) both; }
+  @keyframes type { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+  .f { opacity: 0; animation: in .5s ease-out forwards; }
+  @keyframes in { to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .f { animation: none; opacity: 1; } .cover { display: none; } }
+</style>
+<rect width="1200" height="720" rx="24" fill="url(#bg)"/>
+<g filter="url(#blur)" opacity=".5"><circle cx="1050" cy="120" r="170" fill="#6aa8ff"/><circle cx="160" cy="680" r="160" fill="#b48cff"/></g>
+<text x="100" y="120" class="lab">KAP ANALYST · AGENTIC RAG</text>
+<rect x="100" y="140" width="64" height="4" rx="2" fill="url(#g)"/>
+<text x="100" y="210" class="q">THY&#x27;nin 2024 net kâr marjı nedir?</text><rect class="cover" x="98" y="174" width="641" height="50" fill="#070912" style="animation-delay:0.5s"/>
+<text x="120" y="280" class="tool f" style="animation-delay:2.1s"><tspan fill="#6aa8ff">→</tspan> search_reports(&quot;THYAO net kâr hasılat 2024&quot;)</text>
+<text x="120" y="320" class="tool f" style="animation-delay:2.6s"><tspan fill="#6aa8ff">→</tspan> get_line_item(THYAO, net_profit, 2024)   → 113.357 mn TL</text>
+<text x="120" y="360" class="tool f" style="animation-delay:3.0s"><tspan fill="#6aa8ff">→</tspan> get_line_item(THYAO, revenue, 2024)      → 745.430 mn TL</text>
+<text x="120" y="400" class="tool f" style="animation-delay:3.5s"><tspan fill="#6aa8ff">→</tspan> compute_ratio(THYAO, net_margin, 2024)</text>
+<text x="100" y="466" class="ans f" fill="url(#g)" style="animation-delay:3.9s">Net kâr marjı %15,21</text>
+<text x="100" y="512" class="src f" style="animation-delay:4.4s">Kaynak: THYAO 2024 faaliyet raporu, s.11 · s.11</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Emir Tunalı · data products, end to end">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060a"/><stop offset="1" stop-color="#0d1020"/></linearGradient>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5ee7c5"/><stop offset=".5" stop-color="#6aa8ff"/><stop offset="1" stop-color="#b48cff"/></linearGradient>
+  <linearGradient id="band" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6aa8ff" stop-opacity=".28"/><stop offset="1" stop-color="#6aa8ff" stop-opacity=".04"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
+  <clipPath id="card"><rect width="1200" height="320" rx="24"/></clipPath>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.06)"/></pattern>
+</defs>
+<style>
+  .orb { mix-blend-mode: screen; opacity: 0.32; animation: drift 18s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+  .o2 { animation-duration: 24s; animation-delay: -6s; }
+  .o3 { animation-duration: 21s; animation-delay: -12s; }
+  @keyframes drift { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(60px,-30px) scale(1.18); } }
+  .name { font: 700 64px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -2px; fill: #f4f5f8; }
+  .tag { font: 600 30px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -0.6px; }
+  .meta { font: 500 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #a7adbb; letter-spacing: .4px; }
+  .fade { opacity: 0; animation: in 1s cubic-bezier(.2,.8,.2,1) forwards; }
+  .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .75s; }
+  @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .line { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 2.6s 0.6s cubic-bezier(.4,.1,.2,1) forwards; }
+  .past { stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 1.6s 0.3s ease-out forwards; }
+  .bandp { opacity: 0; animation: in 1.4s 1.6s ease-out forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .pulse { animation: pulse 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1); } 50% { opacity: 0; transform: scale(2.4); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .fade, .bandp { opacity: 1 !important; } .line, .past { stroke-dashoffset: 0 !important; } }
+</style>
+<g clip-path="url(#card)">
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <g filter="url(#blur)">
+    <circle class="orb" cx="60" cy="20" r="130" fill="#5ee7c5"/>
+    <circle class="orb o2" cx="1130" cy="60" r="150" fill="#6aa8ff"/>
+    <circle class="orb o3" cx="760" cy="350" r="140" fill="#b48cff"/>
+  </g>
+  <!-- a forecast: history, then a median line with a widening uncertainty band -->
+  <g transform="translate(640,52) scale(1.12)">
+    <path class="past" d="M0 150 C30 140 50 120 80 128 S130 100 160 110 S210 90 240 96" fill="none" stroke="#a7adbb" stroke-width="2.5" stroke-linecap="round"/>
+    <path class="bandp" d="M240 96 C280 80 320 60 360 52 S420 30 450 22 L450 120 C420 116 380 118 360 120 S280 110 240 96 Z" fill="url(#band)"/>
+    <path class="line" d="M240 96 C280 92 320 84 360 86 S420 70 450 66" fill="none" stroke="url(#g)" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="240" cy="96" r="5" fill="#f4f5f8"/>
+    <circle class="pulse" cx="240" cy="96" r="5" fill="#6aa8ff"/>
+    <line x1="240" x2="240" y1="10" y2="180" stroke="#a7adbb" stroke-opacity=".35" stroke-dasharray="3 5"/>
+    <text x="246" y="24" class="meta" style="font-size:12px">today</text>
+  </g>
+  <text x="72" y="140" class="name fade d1">Emir Tunalı</text>
+  <text x="74" y="192" class="tag fade d2" fill="url(#g)">Data products, end to end.</text>
+  <text x="76" y="240" class="meta fade d3">FORECASTING · ON-DEVICE ML · FINTECH · ISTANBUL</text>
+</g>
+<rect x=".5" y=".5" width="1199" height="319" rx="24" fill="none" stroke="rgba(255,255,255,0.06)"/>
+</svg>
